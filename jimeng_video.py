@@ -3,7 +3,10 @@ import base64
 import sys
 import os
 import json
+from dotenv import load_dotenv
 from volcengine.visual.VisualService import VisualService
+
+load_dotenv()
 
 # ========== 配置 ==========
 AK = os.environ.get("VOLC_ACCESS_KEY", "your-access-key-here")

@@ -25,7 +25,10 @@ import subprocess
 import sys
 import time
 
+from dotenv import load_dotenv
 from volcenginesdkarkruntime import Ark
+
+load_dotenv()
 
 # ========== 配置 ==========
 ARK_API_KEY = os.environ.get("VOLC_ARK_API_KEY", "your-api-key-here")
