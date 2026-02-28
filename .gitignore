@@ -1,0 +1,13 @@
+venv/
+output/
+storyboard/
+__pycache__/
+*.pyc
+.env
+*.key
+.DS_Store
+# 私有分镜脚本
+复仇录*.md
+无题*.md
+*_分镜*.md
+*_script*.md
